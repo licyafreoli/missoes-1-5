@@ -24,7 +24,6 @@ document.addEventListener('DOMContentLoaded', () => {
         const classGroup = document.getElementById('classGroup').value.trim();
         if (name && classGroup) {
             const students = JSON.parse(localStorage.getItem('students') || '[]');
-            // Criar um novo aluno sem modificar os existentes
             students.push({ name, classGroup, grades: [] });
             localStorage.setItem('students', JSON.stringify(students));
             updateResults();
