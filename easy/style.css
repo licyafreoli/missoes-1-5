@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: #0d1b2a;
+    color: #e0e1dd;
+    padding: 20px;
+}
+
+.desafio-container {
+    background-color: #1b263b;
+    border: 1px solid #415a77;
+    border-radius: 12px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.desafio-container:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.5);
+}
+
+.desafio-container h2 {
+    margin-bottom: 15px;
+    color: #e0e1dd;
+    border-bottom: 2px solid #415a77;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+}
+
+textarea,
+input[type="text"],
+input[type="number"],
+input[type="date"] {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 12px;
+    border: 1px solid #778da9;
+    border-radius: 6px;
+    background-color: #2e3a4a;
+    color: #e0e1dd;
+    transition: border-color 0.3s ease;
+}
+
+textarea:focus,
+input[type="text"]:focus,
+input[type="number"]:focus,
+input[type="date"]:focus {
+    border-color: #e0e1dd;
+    outline: none;
+}
+
+button {
+    padding: 12px 20px;
+    background-color: #1f4068;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-bottom: 12px;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+button:hover {
+    background-color: #162447;
+    transform: translateY(-3px);
+}
+
+#sortedOutput, 
+#nameOutput, 
+#checkOutput, 
+#factorialOutput, 
+#pairsOutput, 
+#coinOutput, 
+#idValidationResult, 
+#licenseOutput {
+    margin-top: 12px;
+    padding: 12px;
+    background-color: #23374d;
+    border-radius: 6px;
+    border: 1px solid #778da9;
+    color: #e0e1dd;
+    font-family: 'Arial', sans-serif;
+    letter-spacing: 0.75px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+#sortedOutput:hover, 
+#nameOutput:hover, 
+#checkOutput:hover, 
+#factorialOutput:hover, 
+#pairsOutput:hover, 
+#coinOutput:hover, 
+#idValidationResult:hover, 
+#licenseOutput:hover {
+    background-color: #1b263b;
+    color: #ffffff;
+}
