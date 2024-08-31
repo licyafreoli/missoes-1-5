@@ -1,6 +1,6 @@
 # Medium - Desafios de programação
 
-Bem-vindo ao **Medium****, este projeto é uma coleção de desafios de programação implementados com HTML, CSS e JavaScript. O objetivo é oferecer uma interface interativa para estudantes explorarem conceitos de lógica e programação, enquanto desenvolvem habilidades práticas.
+Bem-vindo ao **Medium**, este projeto é uma coleção de desafios de programação implementados com HTML, CSS e JavaScript. O objetivo é oferecer uma interface interativa para estudantes explorarem conceitos de lógica e programação, enquanto desenvolvem habilidades práticas.
 
 ## Funcionalidades
 
