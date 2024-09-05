@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aplicações de Programação</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <main>
+        <section id="race">
+            <h2>Corrida de Pods</h2>
+            <button id="start-race">Iniciar Corrida</button>
+            <div id="race-result"></div>
+            <div class="pods">
+                <div class="pod">Pod 1</div>
+                <div class="pod">Pod 2</div>
+                <div class="pod">Pod 3</div>
+            </div>
+        </section>
+
+        <section id="find-connections">
+            <h2>Encontrar Conexões</h2>
+            <div id="connection-data" style="display: none;">{
+                "connection": {
+                    "_id": "123",
+                    "label": "Conexão 1"
+                },
+                "connections": [
+                    {
+                        "connection": {
+                            "_id": "456",
+                            "label": "Conexão 2"
+                        }
+                    }
+                ]
+            }</div>
+            <button id="find-connections">Buscar Conexões</button>
+            <div id="connections-result"></div>
+        </section>
+
+        <section id="explore">
+            <h2>Hora de Jogar</h2>
+            <form id="explore-form">
+                <select id="planet-select">
+                    <option value="">Selecione um planeta</option>
+                    <option value='{"id": "1", "nome": "Planeta A", "hostilidade": "pacifico"}'>Planeta A</option>
+                    <option value='{"id": "2", "nome": "Planeta B", "hostilidade": "neutro"}'>Planeta B</option>
+                    <option value='{"id": "3", "nome": "Planeta C", "hostilidade": "hostil"}'>Planeta C</option>
+                </select>
+                <button type="submit">Explorar</button>
+            </form>
+            <div id="exploration-result"></div>
+            <div>
+                <p>Nível: <span id="explorer-level">1</span></p>
+                <p>Experiência: <span id="explorer-experience">0</span></p>
+                <p>Ranque: <span id="explorer-ranque">Novato</span></p>
+            </div>
+        </section>
+
+        <section id="fibonacci">
+            <h2>Otimização de Cálculos</h2>
+            <input type="number" id="fibonacci-input" min="0" max="100">
+            <button id="calculate-fib">Calcular Fibonacci</button>
+            <div id="fib-result"></div>
+        </section>
+
+        <section id="registration">
+            <h2>Registro de Usuário</h2>
+            <form id="user-form">
+                <label for="username">Nome de Usuário:</label>
+                <input type="text" id="username" name="username" required>
+                <button type="submit">Registrar</button>
+                <p id="feedback"></p>
+            </form>
+            <div id="registration-result"></div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
